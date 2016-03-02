@@ -18,6 +18,7 @@ Command structure:
     docker run -v /$(pwd):\\home\newuser\report  praqma/linkchecker:v[version number] [Options] [Output Options] [URL]
 ```
 
+
 ### Example
 ```
 docker run -v $(pwd):/home/newuser/report  praqma/linkchecker:latest -o text -Fhtml/home/newuser/report/linkchecker.report.html -Fcsv/home/newuser/report/linkchecker.report.csv http://www.example.com
